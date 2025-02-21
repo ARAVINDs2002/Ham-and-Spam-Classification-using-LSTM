@@ -56,7 +56,7 @@ The model was trained with the following parameters:
 ### 🔍 Accuracy & Loss Curves
 The following curves illustrate the training accuracy and loss over epochs:
 
-![Loss Curve](ham spam using rnn/loss_curve.png)  <!-- Replace 'loss_curve.png' with the actual filename of your loss curve image -->
+![loss_curve](ham spam using rnn/loss_curve.png)  <!-- Replace 'loss_curve.png' with the actual filename of your loss curve image -->
 
 
 
