@@ -23,27 +23,40 @@ To run this project, install the required dependencies:
 
 ```bash
 pip install numpy pandas tensorflow matplotlib scikit-learn
-Run the Training Script:
-
-bash
+```
+#### Run the Training Script:
+```bash
 Run
 Copy code
 python train.py
-This will train the model and save the weights as spam_classifier_weights.weights.h5.
+```
+#### This will train the model and save the weights as spam_classifier_weights.weights.h5.
 
-Run the Testing Script:
-
-bash
-Run
+#### Run the Testing Script:
+```bash
 Copy code
 python test.py
-This will load the trained model and test it on sample messages.
-
-🧑‍💻 Model Architecture
 ```
+#### This will load the trained model and test it on sample messages.
 
-## 🛠 Running the code.
-To run this project, install the required dependencies:
+## 🧑‍💻 Model Architecture
+The LSTM model is designed as follows:
+- **Embedding Layer:** Converts words into dense vectors
+- **LSTM Layer:** Extracts sequential patterns in text
+- **Dropout Layer:** Prevents overfitting
+- **Dense Layers:** Fully connected layers for classification
+
+## 📈 Training & Performance
+The model was trained with the following parameters:
+- **Optimizer:** Adam (`learning_rate=0.0003`)
+- **Loss Function:** Binary Cross-Entropy
+- **Batch Size:** 32
+- **Epochs:** 10
+
+### 🔍 Accuracy & Loss Curves
+The following curves illustrate the training accuracy and loss over epochs:
+
+![Loss Curve](loss_curve.png)  <!-- Replace 'loss_curve.png' with the actual filename of your loss curve image -->
 
 
 
