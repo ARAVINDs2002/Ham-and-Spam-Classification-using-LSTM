@@ -65,7 +65,9 @@ The following curves illustrate the training accuracy and loss over epochs:
 
 #### Thank You for Your Valuable Time!
 
-I wanted to experiment with the LSTM network on textual data, and it was initially a bit challenging. Finding the right learning rate, optimizers, and the number of epochs took some time. However, after adjusting and fine-tuning the parameters, I achieved the results you see here.
+I wanted to experiment with the LSTM network on textual data, and it was initially a bit challenging. Finding the right learning rate, optimizers, and the number of epochs took some 
+
+time. However, after adjusting and fine-tuning the parameters, I achieved the results you see here.
 
 With the right values, you can definitely fine-tune the model to get the best results. Below, I will provide some initial validation and training loss curves:
 
