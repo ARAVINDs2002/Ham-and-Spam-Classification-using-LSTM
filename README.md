@@ -23,4 +23,5 @@ To run this project, install the required dependencies:
 
 ```bash
 pip install numpy pandas tensorflow matplotlib scikit-learn
-
+## 🛠️ Installation & Setup
+To run this project, install the required dependencies:
