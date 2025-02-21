@@ -23,6 +23,29 @@ To run this project, install the required dependencies:
 
 ```bash
 pip install numpy pandas tensorflow matplotlib scikit-learn
-```bash
-## 🛠️ Installation & Setup
+Run the Training Script:
+
+bash
+Run
+Copy code
+python train.py
+This will train the model and save the weights as spam_classifier_weights.weights.h5.
+
+Run the Testing Script:
+
+bash
+Run
+Copy code
+python test.py
+This will load the trained model and test it on sample messages.
+
+🧑‍💻 Model Architecture
+```
+
+## 🛠 Running the code.
 To run this project, install the required dependencies:
+
+
+
+
+
