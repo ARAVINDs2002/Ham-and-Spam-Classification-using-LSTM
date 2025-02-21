@@ -65,11 +65,7 @@ The following curves illustrate the training accuracy and loss over epochs:
 
 #### Thank You for Your Valuable Time!
 
-I wanted to experiment with the LSTM network on textual data, and it was initially a bit challenging. Finding the right learning rate, optimizers, and the number of epochs took some 
-
-time. However, after adjusting and fine-tuning the parameters, I achieved the results you see here.
-
-With the right values, you can definitely fine-tune the model to get the best results. Below, I will provide some initial validation and training loss curves:
+I wanted to experiment with the LSTM network on textual data, and it was initially a bit challenging. Finding the right learning rate, optimizers, and the number of epochs took some time. However, after adjusting and fine-tuning the parameters, I achieved the results you see here.With the right values, you can definitely fine-tune the model to get the best results. Its a bit embarissing but Below, I will provide some initial validation and training loss curves:
 
 ![Loss Curve](ham%20spam%20using%20rnn/loss1.png)
 
@@ -77,6 +73,6 @@ With the right values, you can definitely fine-tune the model to get the best re
 
 ![Loss Curve](ham%20spam%20using%20rnn/loss3.png)
 
-
+Have a good day and feel positive
 
 
