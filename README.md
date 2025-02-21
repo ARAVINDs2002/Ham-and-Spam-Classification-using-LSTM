@@ -26,15 +26,14 @@ pip install numpy pandas tensorflow matplotlib scikit-learn
 ```
 #### Run the Training Script:
 ```bash
-Run
-Copy code
+Run👇
 python train.py
 ```
 #### This will train the model and save the weights as spam_classifier_weights.weights.h5.
 
 #### Run the Testing Script:
 ```bash
-Copy code
+Run👇
 python test.py
 ```
 #### This will load the trained model and test it on sample messages.
@@ -57,6 +56,17 @@ The model was trained with the following parameters:
 The following curves illustrate the training accuracy and loss over epochs:
 
 ![Loss Curve](ham%20spam%20using%20rnn/loss_curve.png)
+
+##### Thankyou for your valuable time..well i just wanted to try the lstm network on my own in textual data so initially it was a bit problamatic because finding the right learning rate,the optimizers,the epocs..etc.after adjusting or say fine tuning th eparameters i get to this result.i will also provide some initial validation and training loss below.with right value you can defenetly fine tune it to get best results.
+
+The following curves illustrate the training accuracy and loss over epochs:
+
+![Loss Curve](ham%20spam%20using%20rnn/loss1.png)
+
+![Loss Curve](ham%20spam%20using%20rnn/loss2.png)
+
+![Loss Curve](ham%20spam%20using%20rnn/loss3.png)
+
 
 
 
